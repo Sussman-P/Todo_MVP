@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Todo List</title>
+		<script
+			src="https://code.jquery.com/jquery-3.6.4.js"
+			integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+			crossorigin="anonymous"
+		></script>
+		<script async src="app.js"></script>
+		<link rel="stylesheet" href="app.css" />
+	</head>
+	<body>
+		<h1>Todo List</h1>
+		<div class="container">
+			<div class="controls">
+				<input type="text" id="createTask" placeholder="Create a task:" />
+				<input type="number" id="priority" placeholder="1" min="1" max="3" />
+				<button class="submit">Create Task!</button>
+			</div>
+			<hr />
+			<div class="tasks"></div>
+		</div>
+	</body>
+</html>

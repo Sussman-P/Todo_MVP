@@ -1,0 +1,28 @@
+body {
+    background-color:lightslategrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.priority {
+    color: red;
+    text-decoration: underline;
+}
+
+.task-items {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
